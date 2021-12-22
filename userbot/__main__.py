@@ -53,7 +53,7 @@ async def startup_process():
         f"Congratulation, now type {cmdhr}alive to see message if catub is live\
         \nIf you need assistance, head to https://t.me/catuserbot_support"
     )
-    print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
+    print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
     await verifyLoggerGroup()
     await add_bot_to_logger_group(BOTLOG_CHATID)
     if PM_LOGGER_GROUP_ID != -100:
